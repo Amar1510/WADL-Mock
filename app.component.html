@@ -1,0 +1,44 @@
+<div class='test'style="height:100%;width:100%;display:'flex';" >
+<h1>Simple Form</h1>
+<form #simpleForm = "ngForm" (ngSubmit) = "getValues(simpleForm.value)">
+<input type ="text" ngModel name = "user" placeholder = "Enter Name">
+<br> <br>
+<input type ="text" ngModel name = "age" placeholder = "Enter age">
+<br> <br>
+<input type ="text" ngModel name = "city" placeholder = "Enter city">
+<br> <br>
+<button>Get user value</button>
+</form>
+
+
+
+
+
+ <!-- <h1>{{title}}</h1>
+ <input
+    type="text"
+    placeholder="Enter Name"
+    name="user"
+ />
+ <br><br>
+ <input
+ type="text"
+
+ placeholder="Enter Age"
+ name="age"
+/>
+<br><br>
+<input
+type="text"const
+
+placeholder="Enter city"
+name="city"
+/>
+ <br><br>
+ <button  >get User data</button> -->
+
+ <p> {{displayVal}} </p>
+ <p> {{age}} </p>
+ <p> {{city}} </p>
+
+ </div>
